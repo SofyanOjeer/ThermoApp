@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "590431663593",
+    "firebase_url": "https://thermoapp-7986f-default-rtdb.firebaseio.com",
+    "project_id": "thermoapp-7986f",
+    "storage_bucket": "thermoapp-7986f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590431663593:android:0006a41ae0727b31380778",
+        "android_client_info": {
+          "package_name": "fr.sofyan.thermoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590431663593-2ngnskc6ifntlpu9hmfg77r217nnve65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGBsBE4qjT7EwIY-7d6zhl0R0MUe8FFEE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "590431663593-2ngnskc6ifntlpu9hmfg77r217nnve65.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

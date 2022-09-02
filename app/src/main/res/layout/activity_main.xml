@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="57dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="99dp"
+        android:layout_marginBottom="653dp"
+        android:text="ThermoApp"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="126dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="116dp"
+        android:layout_marginEnd="224dp"
+        android:layout_marginBottom="500dp"
+        android:src="@drawable/thermometre" />
+
+    <TextView
+        android:id="@+id/temp"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="161dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="516dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <ImageView
+        android:layout_width="129dp"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginEnd="202dp"
+        android:layout_marginBottom="358dp"
+        android:src="@drawable/humidite" />
+
+    <TextView
+        android:id="@+id/hum"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="203dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="384dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/infoHum"
+        android:layout_width="207dp"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="199dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="359dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="111dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="81dp"
+        android:layout_marginTop="403dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="216dp"
+        android:src="@drawable/chauffage" />
+
+    <TextView
+        android:id="@+id/air"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginTop="467dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="211dp"
+        android:text="0"
+        android:textColor="@color/white"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/infoAir"
+        android:layout_width="207dp"
+        android:layout_height="187dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="505dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="199dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/btSecondMainActivity"
+        android:layout_width="171dp"
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="616dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="19dp"
+        android:text="Page suivante" />
+
+    <ImageButton
+        android:id="@+id/btLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="106dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="242dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="625dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/user" />
+
+    <TextView
+        android:id="@+id/volet"
+        android:layout_width="375dp"
+        android:layout_height="89dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="537dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="105dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+
+
+</RelativeLayout>
